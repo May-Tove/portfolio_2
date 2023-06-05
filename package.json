@@ -2,7 +2,7 @@
   "homepage": "https://May-Tove.github.io/portfolio_2/",
   "name": "portfolio_2",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
