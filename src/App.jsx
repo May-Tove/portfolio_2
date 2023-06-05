@@ -1,8 +1,6 @@
-import './App.css';
+import './styles.scss';
 
 function App() {
-  console.log('Intentional Formatting Error');
-
   return (
     <>
       <h1>Hello test</h1>
