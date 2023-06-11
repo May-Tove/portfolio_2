@@ -12,7 +12,7 @@ export const Card = styled.article`
 `;
 
 export const CardImage = styled.img`
-  height: 400px;
+  height: 300px;
   width: 100%;
 
   @media (min-width: 1024px) {
