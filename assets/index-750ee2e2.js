@@ -156,7 +156,7 @@ Error generating stack: `+o.message+`
     gap: 3rem;
   }
 `,QC=de.img`
-  height: 400px;
+  height: 300px;
   width: 100%;
 
   @media (min-width: 1024px) {
