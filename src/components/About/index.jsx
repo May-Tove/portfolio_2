@@ -22,18 +22,18 @@ const About = ({ aboutRef }) => {
         <div>
           <Reveal>
             <p>
-              I'm an enthusiastic front-end developer with a deep-seated passion
-              for coding and design. I just graduated from my higher
-              professional degree in frontend development at Noroff, and I'm now
-              keen to embark on this exciting journey in the tech industry.
+              I am an enthusiastic front-end developer with a deep-seated
+              passion for coding and design. I recently graduated from a higher
+              professional degree in frontend development at Noroff, and I am
+              now eager to embark on this exciting journey in the tech industry.
             </p>
           </Reveal>
           <Reveal>
             <p>
-              Over the past nine years, I've gained skills in various roles
-              within one of Norway's largest hotels, strengthening my abilities
-              in problem-solving, adaptability, and teamwork - all of which are
-              important as a developer also.
+              Over the past nine years, I have gained skills in various roles
+              within one of Norway's largest hotels. This experience has
+              strengthened my abilities in problem-solving, adaptability, and
+              teamwork - all of which are crucial for a developer.
             </p>
           </Reveal>
           <Reveal>
