@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
         --color-white: #fff;
         --color-black: black;
         --color-text-light: white;
-        --color-text: #402E3E;
+        --color-text: #464440;
         --color-text-muted: grey;
         --color-grey: #EFEFE9;
         --box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
@@ -37,8 +37,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .active{
-        color: #CB009C;
-        border-bottom: 2px solid #CB009C;
+        color: #ea4c89;
+        border-bottom: 2px solid #ea4c89;
         border-radius: 1px;
         height: 70px;
     }
@@ -54,6 +54,7 @@ const GlobalStyle = createGlobalStyle`
     h2{
         font-size: 3rem; 
         padding-bottom: 3rem;
+
     }
 
     h3{
@@ -81,13 +82,13 @@ const GlobalStyle = createGlobalStyle`
     }
 
     a{
-        color: #CB009C;
+        color: #ea4c89;
         text-decoration: none;
-        transition: all 0.5s ease;
+        transition: color 0.3s ease;
 
         &:hover, &:focus{
-            color: var(--color-primary);
-            transition: all 0.5s ease;
+            color: #f082ac;
+        
         }
     }
 

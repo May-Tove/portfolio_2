@@ -17,7 +17,7 @@ export const CardImage = styled.img`
 
   @media (min-width: 1024px) {
     min-width: 50%;
-    height: 500px;
+    height: 450px;
   }
 `;
 
@@ -36,15 +36,17 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const CTA = styled.a`
-  padding: 0.5rem 0.8rem;
-  background-color: black;
-  border: none;
-  color: white;
+  background-color: #262626;
   border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 16px;
   transition: all 0.5s ease;
 
-  :hover {
-    background-color: #0192d9;
+  :hover,
+  :focus {
+    background-color: #6a6a6a;
     color: white;
     transition: all 0.5s ease;
   }

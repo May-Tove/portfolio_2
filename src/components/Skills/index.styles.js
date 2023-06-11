@@ -11,7 +11,7 @@ export const IconContainer = styled.div`
 `;
 
 export const Icon = styled.div`
-  background-color: #ede3d7;
+  background-color: #e5f4ff;
   padding: 0.5rem 0.6rem;
   border-radius: 50px;
   font-size: 14px;

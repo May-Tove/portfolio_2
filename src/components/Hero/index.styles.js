@@ -25,6 +25,7 @@ export const Frontend = styled.span`
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 400;
 `;
 
 export const Heading = styled.h1`
@@ -33,6 +34,20 @@ export const Heading = styled.h1`
 
   @media (min-width: 1024px) {
     font-size: 6rem;
+    max-width: 80vw;
+  }
+`;
+
+export const Text = styled.p`
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'quiche-flare', sans-serif;
+  max-width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: 1024px) {
+    font-size: 3rem;
     max-width: 80vw;
   }
 `;

@@ -49,11 +49,19 @@ const About = ({ aboutRef }) => {
           <Reveal>
             <Styled.LinkContainer>
               <p>My Links</p>
-              <a href="https://github.com/May-Tove">
+              <a
+                href="https://github.com/May-Tove"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub size={20} />
               </a>
 
-              <a href="https://no.linkedin.com/in/may-tove-hovdal-24b406153">
+              <a
+                href="https://no.linkedin.com/in/may-tove-hovdal-24b406153"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin size={20} />
               </a>
             </Styled.LinkContainer>

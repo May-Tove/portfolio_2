@@ -27,9 +27,13 @@ const ProjectCard = ({
 
         <Reveal>
           <Styled.ButtonsContainer>
-            <Styled.CTA href={github}>GitHub Repo</Styled.CTA>
+            <Styled.CTA href={github} target="_blank" rel="noreferrer">
+              GitHub Repo
+            </Styled.CTA>
 
-            <Styled.CTA href={demo}>Live Site</Styled.CTA>
+            <Styled.CTA href={demo} target="_blank" rel="noreferrer">
+              Live Site
+            </Styled.CTA>
           </Styled.ButtonsContainer>
         </Reveal>
       </Styled.CardBody>

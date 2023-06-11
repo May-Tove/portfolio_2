@@ -16,12 +16,13 @@ export const Logo = styled.span`
   font-family: 'quiche-flare', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 40px;
   color: beige;
 
   img {
-    max-height: 25px; /* adjust this as needed */
+    max-height: 25px;
     width: auto;
+    transition: all 0.5s ease;
   }
 `;
 
@@ -31,7 +32,7 @@ export const NavBar = styled.nav`
   align-items: center;
   margin: 0 auto;
   width: 90vw;
-  max-width: 1200px;
+  max-width: 1300px;
 `;
 
 export const NavMenu = styled.ul`
@@ -50,7 +51,7 @@ export const NavButton = styled.button`
   border-bottom: 2px solid transparent;
 
   :hover {
-    color: #cb009c;
+    color: #ea4c89;
     transition: all 0.5s ease;
   }
 `;

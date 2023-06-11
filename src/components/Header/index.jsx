@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import * as Styled from './index.styles';
-import Logo from '/assets/logo_light@2x.png';
+import LogoLight from '/assets/logo_light.png';
+import LogoColor from '/assets/logo_color.png';
 
 const Header = ({ aboutRef, projectsRef, contactRef }) => {
   const [navbar, setNavbar] = useState(false);
   const [activeSection, setActiveSection] = useState(null);
 
   const handleChangeBackground = () => {
-    if (window.scrollY >= 600) {
+    if (window.scrollY >= 400) {
       setNavbar(true);
     } else setNavbar(false);
   };
@@ -65,7 +66,11 @@ const Header = ({ aboutRef, projectsRef, contactRef }) => {
       <Styled.NavBar>
         <Styled.Logo>
           {' '}
-          {navbar ? <img src={Logo} alt="Logo" /> : 'may'}
+          {navbar ? (
+            <img src={LogoColor} alt="Logo" />
+          ) : (
+            <img src={LogoLight} alt="Logo" />
+          )}
         </Styled.Logo>
         <Styled.NavMenu>
           <li>

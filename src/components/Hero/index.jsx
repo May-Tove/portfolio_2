@@ -17,7 +17,9 @@ const Hero = () => {
             <Styled.Heading>May-Tove Hovdal</Styled.Heading>
           </Reveal>
           <Reveal>
-            <p>Building user-friendly websites with clean design</p>
+            <Styled.Text>
+              Building user-friendly websites with clean design
+            </Styled.Text>
           </Reveal>
         </div>
       </Styled.HeroSection>

@@ -18,11 +18,15 @@ const Contact = ({ contactRef }) => {
         <p>
           If you want to reach out, you can send me an email me at{' '}
           <span>
-            <a href="">maytoveh@gmail.com</a>
+            <a href="mailto: maytoveh@gmail.com">maytoveh@gmail.com</a>
           </span>{' '}
           or message me on{' '}
           <span>
-            <a href="https://no.linkedin.com/in/may-tove-hovdal-24b406153">
+            <a
+              href="https://no.linkedin.com/in/may-tove-hovdal-24b406153"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </span>{' '}
