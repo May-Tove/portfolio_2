@@ -18,7 +18,7 @@ export const HeroSection = styled(motion.div)`
   align-items: center;
   text-align: center;
   overflow: hidden;
-  color: beige;
+  color: black;
 `;
 
 export const Frontend = styled.span`

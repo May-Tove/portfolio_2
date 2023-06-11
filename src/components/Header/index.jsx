@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import * as Styled from './index.styles';
-import LogoLight from '/assets/logo_light.png';
+import LogoLight from '/assets/logo_dark.png';
 import LogoColor from '/assets/logo_color.png';
 
 const Header = ({ aboutRef, projectsRef, contactRef }) => {

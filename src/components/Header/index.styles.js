@@ -44,7 +44,7 @@ export const NavMenu = styled.ul`
 export const NavButton = styled.button`
   background-color: transparent;
   border: 0;
-  color: #464440;
+  color: black;
   cursor: pointer;
   font-size: 18px;
   transition: all 0.5s ease;
