@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/csm_mockup.png",
+    "image": "/portfolio_2/assets/csm_mockup.png",
     "name": "Community Sicence Museum",
     "type": "Semester Project 1",
     "description": [
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/rainydays_mockup.png",
+    "image": "/portfolio_2//assets/rainydays_mockup.png",
     "name": "Rainydays",
     "type": "Cross Course Project",
     "description": [
@@ -26,7 +26,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/globetrotter_mockup.png",
+    "image": "/portfolio_2//assets/globetrotter_mockup.png",
     "name": "Globetrotter",
     "type": "Project Exam 1",
     "description": [
@@ -38,7 +38,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/social_mockup.png",
+    "image": "/portfolio_2//assets/social_mockup.png",
     "name": "Social",
     "type": "Cross Course Project 2nd Year",
     "description": [
@@ -50,7 +50,7 @@
   },
   {
     "id": 5,
-    "image": "/assets/bidspot_4.png",
+    "image": "/portfolio_2//assets/bidspot_4.png",
     "name": "BidSpot",
     "type": "Semester Project 2",
     "description": [
@@ -62,7 +62,7 @@
   },
   {
     "id": 6,
-    "image": "/assets/smartcart_mockup.png",
+    "image": "/portfolio_2/assets/smartcart_mockup.png",
     "name": "SmartCart",
     "type": "Course assignment Javascript Frameworks",
     "description": [
@@ -74,7 +74,7 @@
   },
   {
     "id": 7,
-    "image": "/assets/holidaze_mockup.png",
+    "image": "/portfolio_2//assets/holidaze_mockup.png",
     "name": "Holidaze",
     "type": "Project Exam 2",
     "description": [
