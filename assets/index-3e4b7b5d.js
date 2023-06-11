@@ -83,7 +83,7 @@ Error generating stack: `+o.message+`
 `,Ea=de.button`
   background-color: transparent;
   border: 0;
-  color: #464440;
+  color: black;
   cursor: pointer;
   font-size: 18px;
   transition: all 0.5s ease;
@@ -94,7 +94,7 @@ Error generating stack: `+o.message+`
     color: #ea4c89;
     transition: all 0.5s ease;
   }
-`,W1="/portfolio_2/assets/logo_light.png",b1="/portfolio_2/assets/logo_color.png",zm=({aboutRef:e,projectsRef:t,contactRef:n})=>{const[r,i]=T.useState(!1),[o,s]=T.useState(null),a=()=>{window.scrollY>=400?i(!0):i(!1)};window.addEventListener("scroll",a);const l=()=>{const c=[{name:"about",ref:e},{name:"projects",ref:t},{name:"contact",ref:n}],f=window.pageYOffset+window.innerHeight;if(document.documentElement.offsetHeight-f<50){s("contact");return}for(const g of c){const y=g.ref.current.getBoundingClientRect();if(y.top<=0&&y.bottom>0){s(g.name);return}}s(null)};T.useEffect(()=>(window.addEventListener("scroll",a),window.addEventListener("scroll",l),()=>{window.removeEventListener("scroll",a),window.removeEventListener("scroll",l)}),[]);const u=c=>{c.current.scrollIntoView({behavior:"smooth"})};return k.jsx($1,{className:r?"nav-bg":"",children:k.jsxs(U1,{children:[k.jsxs(B1,{children:[" ",r?k.jsx("img",{src:b1,alt:"Logo"}):k.jsx("img",{src:W1,alt:"Logo"})]}),k.jsxs(H1,{children:[k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="projects"?"active":"",onClick:()=>u(t),children:"Projects"})]}),k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="about"?"active":"",onClick:()=>u(e),children:"About"})]}),k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="contact"?"active":"",onClick:()=>u(n),children:"Contact"})]})]})]})})};zm.propTypes={projectsRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})]),aboutRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})]),contactRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})])};const G1=de.footer`
+`,W1="/portfolio_2/assets/logo_dark.png",b1="/portfolio_2/assets/logo_color.png",zm=({aboutRef:e,projectsRef:t,contactRef:n})=>{const[r,i]=T.useState(!1),[o,s]=T.useState(null),a=()=>{window.scrollY>=400?i(!0):i(!1)};window.addEventListener("scroll",a);const l=()=>{const c=[{name:"about",ref:e},{name:"projects",ref:t},{name:"contact",ref:n}],f=window.pageYOffset+window.innerHeight;if(document.documentElement.offsetHeight-f<50){s("contact");return}for(const g of c){const y=g.ref.current.getBoundingClientRect();if(y.top<=0&&y.bottom>0){s(g.name);return}}s(null)};T.useEffect(()=>(window.addEventListener("scroll",a),window.addEventListener("scroll",l),()=>{window.removeEventListener("scroll",a),window.removeEventListener("scroll",l)}),[]);const u=c=>{c.current.scrollIntoView({behavior:"smooth"})};return k.jsx($1,{className:r?"nav-bg":"",children:k.jsxs(U1,{children:[k.jsxs(B1,{children:[" ",r?k.jsx("img",{src:b1,alt:"Logo"}):k.jsx("img",{src:W1,alt:"Logo"})]}),k.jsxs(H1,{children:[k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="projects"?"active":"",onClick:()=>u(t),children:"Projects"})]}),k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="about"?"active":"",onClick:()=>u(e),children:"About"})]}),k.jsxs("li",{children:[" ",k.jsx(Ea,{className:o==="contact"?"active":"",onClick:()=>u(n),children:"Contact"})]})]})]})})};zm.propTypes={projectsRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})]),aboutRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})]),contactRef:Q.oneOfType([Q.func,Q.shape({current:Q.instanceOf(Element)})])};const G1=de.footer`
   text-align: center;
   width: 100%;
   padding: 2rem;
@@ -120,7 +120,7 @@ Error generating stack: `+o.message+`
   align-items: center;
   text-align: center;
   overflow: hidden;
-  color: beige;
+  color: black;
 `,WC=de.span`
   font-size: 1rem;
   text-transform: uppercase;
