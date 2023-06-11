@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/csm_mockup_2.png",
+    "image": "/assets/csm_mockup.png",
     "name": "Community Sicence Museum",
     "type": "Semester Project 1",
     "description": [
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/rainydays-mockup2.jpg",
+    "image": "/assets/rainydays_mockup.png",
     "name": "Rainydays",
     "type": "Cross Course Project",
     "description": [
@@ -26,8 +26,8 @@
   },
   {
     "id": 3,
-    "image": "/assets/globetrotter-mockup4.jpg",
-    "name": "Globetrotter - Travel Blog",
+    "image": "/assets/globetrotter_mockup.png",
+    "name": "Globetrotter",
     "type": "Project Exam 1",
     "description": [
       "My final first-year project at Noroff was a self-themed blog site, reflecting my comprehensive understanding of web development. Developed with HTML, CSS, and JavaScript, and employing a headless WordPress CMS for blog posts, the site features a homepage, about page, blog post list, individual blog post pages, and a contact page.",
@@ -38,7 +38,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/social_3.png",
+    "image": "/assets/social_mockup.png",
     "name": "Social",
     "type": "Cross Course Project 2nd Year",
     "description": [
@@ -74,7 +74,7 @@
   },
   {
     "id": 7,
-    "image": "/assets/holidaze_3.png",
+    "image": "/assets/holidaze_mockup.png",
     "name": "Holidaze",
     "type": "Project Exam 2",
     "description": [
