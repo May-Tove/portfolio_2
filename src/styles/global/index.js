@@ -5,21 +5,25 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: "futura-pt", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1px;
     }
         
     html {
         --color-primary: #0192D9;
         --color-secondary: #eef8fd;
-        --color-light: #f6f6f2;
+        --color-light: #FFFCFE;
         --color-white: #fff;
         --color-black: black;
         --color-text-light: white;
-        --color-text: #454545;
+        --color-text: #402E3E;
         --color-text-muted: grey;
         --color-grey: #EFEFE9;
         --box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
         --border-radius: 5px;
+        scroll-padding-top: 20px;
     }
     
     body {
@@ -27,28 +31,64 @@ const GlobalStyle = createGlobalStyle`
         color: var(--color-text);
     }
 
+    .nav-bg{
+        background-color: var(--color-light);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .active{
+        color: #CB009C;
+        border-bottom: 2px solid #CB009C;
+        border-radius: 1px;
+        height: 70px;
+    }
+
+    h1, h2, h3{
+        font-family: "quiche-flare", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+
+    }
+
+
+    h2{
+        font-size: 3rem; 
+        padding-bottom: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;   
+    }
+
+    p{
+        margin-bottom: 20px;
+    }
+
     .main-global-styling {
-        min-height: 100vh;
         width: 90vw;
-        max-width: 1100px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 2rem 0 2rem 0;
     }
 
+    .section{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    img{
+        object-fit: cover;
+    }
+
     a{
-        color: var(--color-text);
+        color: #CB009C;
+        text-decoration: none;
+        transition: all 0.5s ease;
 
         &:hover, &:focus{
             color: var(--color-primary);
+            transition: all 0.5s ease;
         }
-    }
-
-    input, textarea{
-        border: none;
-        font-size: 16px;
-        padding: 0.3rem;
-        border-radius: var(--border-radius);
-        border: 0.2px solid lightgrey;
     }
 
 `;
